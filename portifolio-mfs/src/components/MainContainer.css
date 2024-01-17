@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainSections{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSectionsBox{
+    text-align: center;
+}
+
+.sectionUm{
+    color: red;
+}
+.sectionDois{
+    color: orange;
+}
+.sectionTres{
+    color: green;
+}
