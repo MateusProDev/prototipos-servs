@@ -1,6 +1,7 @@
 import './App.css'
 import HeaderNav from './components/HeaderNav.jsx'
 import MainContainer from './components/MainContainer.jsx'
+import FooterContainer from './components/FooterContainer.jsx'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <HeaderNav />
       <MainContainer />
+      <FooterContainer />
     </>
   )
 }

@@ -1,26 +1,39 @@
-import { useState } from "react";
 import './MainContainer.css';
 
 const MainContainer = () => {
 
-  const [users] = useState([
-    {id: 1, name: "MEU SITE AQUI", paragrafo: "Esse é nosso site de protótico" },
-    {id: 2, name: "SERVIÇOS", paragrafo: "Esse é nosso site de protótico" },
-    {id: 3, name: "SOBRE A EMPRESA", paragrafo: "Esse é nosso site de protótico" },
-
-  ])
   return (
     <>
         <main className="mainApp">
               <div className="mainCenter">
-                {users.map((user, i) => (
-                  <section className={`mainSections ${i === 0 ? 'sectionUm' : i === 1 ? 'sectionDois' : 'sectionTres'}`} key={user.id}>
+                  <section className="section sectionUm">
+                    <div className="mainSectionsBox secUm">
+                      <h2>MEU SITE AQUI</h2>
+                      <p>Paragrafo</p>
+                      <button>Whatssap</button>
+                    </div>
                     <div className="mainSectionsBox">
-                      <h2 className="itemTitle">{user.name}</h2>
-                      <p className="itemParagrafo">{user.paragrafo}</p>
+                        <img className='imgSecUm' src="/vite.svg" alt="" />
                     </div>
                   </section>
-                ))}
+                  <section className="section sectionDois">
+                    <div className="mainSectionsBox secDois">
+                      <h2>SEÇÃO</h2>
+                      <p>Paragrafo</p>
+                    </div>
+                    <div className="mainSectionsBox">
+                      
+                    </div>
+                  </section>
+                  <section className="section sectionTres">
+                    <div className="mainSectionsBox secTres">
+                      <h2>SEÇÃO</h2>
+                      <p>Paragrafo</p>
+                    </div>
+                    <div className="mainSectionsBox">
+                      
+                    </div>
+                </section>
               </div>
         </main>
     </>
