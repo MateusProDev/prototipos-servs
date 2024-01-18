@@ -24,7 +24,6 @@
     align-items: center;
 }
 .sectionUm{
-    color: red;
     box-shadow: inset 0 400px 400px 400px #3333330e;
 }
 .secUm{
@@ -35,11 +34,29 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     margin-bottom: 10px;
+    color: #0075FF;
 }
 .secUm p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 15px 0;
+}
+.secUmDois{
+    text-align: left;
+    padding-right: 100px;
+}
+.secUmDois h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
     margin-bottom: 10px;
+    color: #fff;
+}
+.secUmDois p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 15px 0;
 }
 .secUm button{
     padding: 8px;
@@ -47,13 +64,23 @@
     border: none;
     border-radius: 4px;
     font-size: 20px;
+    background-color: #25D366;
+    color: #fff;
 }
 .secUm button:hover{
     transform: scale(1.1);
     box-shadow: 4px 4px 4px  #33333333;
 }
 .imgSecUm{
-    width: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 150px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px 4px  #333;
+}
+.sectionUmSocial img:hover{
+    transform: scale(1.1);
 }
 
 

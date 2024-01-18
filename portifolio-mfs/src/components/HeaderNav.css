@@ -9,6 +9,7 @@ body {
   
   .navbar {
     width: 100%;
+    height: 80px;
     background-color: #333;
     padding: 15px;
     display: flex;
@@ -35,7 +36,8 @@ body {
     color: #fff;
   }
   .nav-list a:hover{
-    color: #fffb00;
+    color: #0075FF;
+    transform: scale(2);
   }
   
   .menu-toggle {
@@ -119,7 +121,7 @@ body {
   /* Estilos para desktops grandes (1201px e acima) */
   @media only screen and (min-width: 1201px) {
     body {
-      background-color: lightpink;
+      background-color:#434343;
       font-size: 22px;
     }
   
