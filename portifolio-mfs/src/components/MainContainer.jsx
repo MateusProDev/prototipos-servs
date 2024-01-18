@@ -13,7 +13,7 @@ const MainContainer = () => {
                       <button>Whatssap</button>
                     </div>
                     <div className="mainSectionsBox">
-                        <img className='imgSecUm' src="./gatinho3D.png" alt="" />
+                        <img className='imgSecUm' src="/gatinho3D.png" alt="" />
                     </div>
                     <div className="mainSectionsBox secUmDois">
                       <h2>&lt;CODER&gt;</h2>
