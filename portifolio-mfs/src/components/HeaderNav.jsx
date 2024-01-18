@@ -9,14 +9,16 @@ const HeaderNav = () => {
   return (
     <div>
       <header className="navbar">
-        <div className="logo">Logo</div>
+        <div className="logo">
+          <img src="/perfil.png" alt="" />
+        </div>
         <div className="menu-toggle" onClick={() => toggleMenu(showMenu, setShowMenu)}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
         <ul className={`nav-list ${showMenu ? 'show' : ''}`}>
-          <li><a href="#">Home</a></li>
+          <li><a id='homeBlue' href="#">Home</a></li>
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Serviços</a></li>
           <li><a href="#">Contato</a></li>
