@@ -26,16 +26,22 @@ export default class SimpleSlider extends React.Component {
             <h3>REACT.js</h3>
           </div>
           <div className="sliderCarrossel">
-            <h3>FIREBASE</h3>
+            <h3>NEXT.js</h3>
           </div>
           <div className="sliderCarrossel">
             <h3>MYSQL</h3>
           </div>
           <div className="sliderCarrossel">
-            <h3>BOSTRAPY</h3>
+            <h3>FIREBASE</h3>
           </div>
           <div className="sliderCarrossel">
-            <h3>NEXT.js</h3>
+            <h3>BOOTSTRAP</h3>
+          </div>
+          <div className="sliderCarrossel">
+            <h3>GIT</h3>
+          </div>
+          <div className="sliderCarrossel">
+            <h3>GITHUB</h3>
           </div>
         </Slider>
       </div>
