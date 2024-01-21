@@ -1,0 +1,16 @@
+.carrossel{
+    width: 200px;
+    margin: 20px 0;
+    color: #fff;
+    background: linear-gradient(to right, #000, #333);
+    box-shadow: 4px 4px 4px 4px #000;
+    padding: 10px 0;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.sliderCarrossel{
+    text-align: center;
+    color: #fff;
+}
