@@ -42,7 +42,7 @@ body {
     height: 25px;
   }
   .nav-list li:last-child{
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .nav-list a{
     text-decoration: none;

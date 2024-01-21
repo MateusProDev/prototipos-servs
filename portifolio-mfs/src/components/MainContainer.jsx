@@ -1,7 +1,9 @@
 import './MainContainer.css';
 import SimpleSlider from './SimpleSlider';
+import SimpleSliderD from './SimplesSliderD';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 const MainContainer = () => {
 
@@ -22,13 +24,14 @@ const MainContainer = () => {
                       <h2>&lt;CODER&gt;</h2>
                       <p>Desenvolvemos seu site a partir do Design que é a cara do seu empredimento.</p>
                       <div className="sectionUmSocial">
-                      <SimpleSlider />
                         <img src="/Insta.png" alt="Instagram" />
                         <img src="/GitHub.png" alt="GitHub" />
                         <img src="/TikTok.png" alt="TikTok" />
                       </div>
                     </div>
                   </section>
+                  <SimpleSliderD />
+                  <SimpleSlider />
                   <section className="section sectionDois">
                     <div className="mainSectionsBox secDois">
                       <h2>SEÇÃO</h2>

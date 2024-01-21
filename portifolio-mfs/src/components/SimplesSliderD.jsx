@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './SimpleSlider.css';
+import './SimplesSliderD.css'
 
-export default class SimpleSlider extends React.Component {
+export default class SimpleSliderD extends React.Component {
   render() {
     const settings = {
     dots: true,
@@ -15,12 +15,13 @@ export default class SimpleSlider extends React.Component {
     autoplay: true,
     autoplaySpeed: 0, // Intervalo de rotação em milissegundos
     cssEase: 'linear', // Adicione essa propriedade para rolar continuamente
+    rtl: true, // Configura a direção para right-to-left (roda para o outro lado)
     };
 
 
     return (
       <div>
-        <Slider className="carrossel" {...settings}>
+        <Slider className="carrosselD" {...settings}>
           <div className="sliderCarrossel">
             <h3>JAVASCRIPT</h3>
           </div>

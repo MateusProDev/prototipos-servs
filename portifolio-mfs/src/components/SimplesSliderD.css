@@ -1,11 +1,8 @@
-.carrossel{
+.carrosselD{
     width: 100%;
-    margin-top: 0px;
+    margin-top: -115px;
     color: #fff;
-    background: linear-gradient(to right, #000, #333);
-    box-shadow: 4px 4px 4px 4px #000;
     border-radius: 5px;
-    padding: 5px 0;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -14,7 +11,8 @@
 .sliderCarrossel{
     text-align: center;
     color: #fff;
-}
-.carrosselD{
-    margin-top: -100px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #000, #333);
+    margin: 0 5px 0 5px;
+    padding: 10px 0;
 }

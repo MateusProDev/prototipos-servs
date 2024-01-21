@@ -80,6 +80,11 @@
     font-size: 24px;
     background-color: #25D366;
     color: #fff;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    box-shadow: 2px 2px 20px 5px #000000;
 }
 .secUm button:hover{
     transform: scale(1.1);
