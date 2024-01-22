@@ -33,6 +33,7 @@
 }
 
 .secUm{
+    width: 100%;
     text-align: left;
     padding: 50px;
 }
@@ -53,7 +54,8 @@
     margin: 15px 0 15px 0;
 }
 .secUmDois{
-    text-align: left;
+    width: 100%;
+    text-align: right;
     padding-right: 50px;
 }
 .secUmDois h2{
